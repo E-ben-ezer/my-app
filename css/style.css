@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+    Segoe UI,
+    Arial,
+    sans-serif;
+}
+
+/* Navigation */
+
+.navbar {
+  /* background: #ffcd9e; */
+  background-color: #ffcd9e;
+
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+/* Hero */
+
+.hero {
+  height: 100vh;
+  background-size: cover;
+
+  background-position: center;
+
+  position: relative;
+
+  display: flex;
+
+  align-items: center;
+}
+
+.overlay {
+  position: absolute;
+
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.hero .container {
+  z-index: 2;
+}
+
+.hero h1 {
+  color: white;
+
+  font-size: 60px;
+
+  font-weight: bold;
+}
+
+.hero p {
+  color: white;
+
+  font-size: 22px;
+
+  margin: 25px 0;
+}
+
+footer {
+  background: #111827;
+
+  color: white;
+
+  padding: 25px;
+}
+
+footer .container {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.card {
+  transition: 0.3s;
+
+  border: none;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card img {
+  object-fit: cover;
+}
+
+.card h5 {
+  font-weight: bold;
+}
+
+.card button {
+  font-weight: bold;
+}
+
+.py-5{
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+}
